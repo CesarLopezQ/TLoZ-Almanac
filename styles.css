@@ -1,0 +1,63 @@
+/*Universal Styles*/
+
+* {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    background-color: #f4de9b;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 2.7rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-style: italic;
+    margin: 0;
+}
+
+nav li {
+    display: flex;
+    text-decoration: underline;
+}
+
+.mission {
+    border-bottom: 3px solid black;
+}
+
+.imgCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.imgCatalog figure {
+    max-width: 300px;
+    margin: 1rem 1rem;
+}
+
+.imgCatalog img {
+    padding-bottom: 1rem;
+}
+
+.imgCatalog img, figcaption {
+    max-width: 100%;
+}
