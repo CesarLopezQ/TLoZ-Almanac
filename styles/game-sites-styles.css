@@ -1,0 +1,30 @@
+body {
+    margin: 1rem;
+}
+
+#text {
+    display: inline-flex;
+    width: 50%;
+}
+
+#text h1 {
+    padding-bottom: 1.2rem;
+}
+
+#text h2 {
+    text-align: justify;
+}
+
+.imgCatalog {
+    display: inline-flex;
+    width: 50%;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+nav li {
+    list-style: none;
+}

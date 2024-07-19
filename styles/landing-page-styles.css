@@ -1,0 +1,123 @@
+/* General Styles */
+
+* {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    background-color: #f4de9b;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    font-style: italic;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+h4, strong {
+    font-size: 1.5rem;
+}
+
+/* Header */
+
+.header {
+    border-bottom: 3px solid black;
+}
+
+#title {
+    display: inline-flex;
+    align-items: center;
+}
+
+#title img {
+    padding: 0;
+    height: 100%;
+}
+
+.header h3 {
+    padding: 0 1rem;
+}
+
+#banner {
+    padding-top: 2rem;
+    max-width: 90%;
+}
+
+/* Mission */
+
+.mission {
+    border-bottom: 3px solid black;
+}
+
+.mission h4 {
+    padding-top: 1.2rem;
+    max-width: 50%;
+    text-align: justify;
+}
+
+.mission strong {
+    font-weight: bolder;
+}
+
+/* Game Catalog */
+
+.imgCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.imgCatalog figure {
+    max-width: 300px;
+    margin: 1rem 1rem;
+}
+
+.imgCatalog img {
+    padding-bottom: 1rem;
+}
+
+.imgCatalog a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgCatalog a:hover {
+    color: purple;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.imgCatalog img, figcaption {
+    max-width: 100%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    * {
+        font-size: 16px;
+    }
+}
